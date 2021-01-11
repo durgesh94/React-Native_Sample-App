@@ -8,14 +8,14 @@ export const Settings: React.FC = ({ navigation }: any) => {
 
     const { themes, updateTheme } = useThemes();
     const sharedStyles = SharedStyles(themes);
-    const { strings } = useLocalization();
+    const { strings, updateLangauge } = useLocalization();
 
-    const onChangeTheme = () => {
-        console.log('them');
+    const onChangeTheme = async () => {
+        await updateTheme('dark');
     }
 
     const onChangeLangauge = async () => {
-        await updateTheme('dark');
+        await updateLangauge('hi');
     }
 
     return (

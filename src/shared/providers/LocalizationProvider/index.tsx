@@ -11,6 +11,7 @@ const LocalizationContext = createContext({});
 
 export interface ILocalizationContext {
     strings(name: string): any;
+    updateLangauge(type: string): any;
 }
 
 export const useLocalization = () => useContext<ILocalizationContext>(LocalizationContext as any);
@@ -36,8 +37,12 @@ export const LocalizationProvider: React.FC = ({ children }) => {
         return i18n.t(name);
     };
 
+    const updateLangauge = () => {
+
+    }
+
     return (
-        <LocalizationContext.Provider value={{ strings }}>
+        <LocalizationContext.Provider value={{ strings, updateLangauge }}>
             {children}
         </LocalizationContext.Provider>
     );
