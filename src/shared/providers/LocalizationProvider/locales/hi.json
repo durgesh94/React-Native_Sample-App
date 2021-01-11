@@ -1,0 +1,15 @@
+{
+  "login": {
+      "accessTradeX": "ट्रेड एक्स को एक्सेस करें!",
+      "enterPhoneNumber": "आरंभ करने के लिए अपना फ़ोन नंबर दर्ज करें।",
+      "continue_button_text": "जारी रखें"
+  },
+  "user_verification": {
+      "verify_mobile": "अपना मोबाइल फ़ोन सत्यापित करें।",
+      "enter_4_digit_code": "कृपया एसएमएस के माध्यम से () को भेजे गए 4 अंकों का कोड दर्ज करें।",
+      "sms_recieve": "एसएमएस नहीं मिला",
+      "seconds_remaining": "?        सेकंड शेष:",
+      "alert_timeout": "सत्र मध्यांतर। पुनः प्रयास करें।",
+      "continue_button_text": "जारी रखें"
+  }
+}

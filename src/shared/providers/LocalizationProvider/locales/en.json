@@ -1,0 +1,1104 @@
+{
+    "mods-shared": {
+        "scenes": {
+            "splash": {
+                "skip": "SKIP",
+                "gettingStarted": "Get Started "
+            },
+            "signIn": {
+                "accessTradeX": "Access Trade X",
+                "enterPhoneNumber": "Enter your phone number to get started.",
+                "btnContinue": "Continue",
+                "alertSuccess": "Verify code send success."
+            },
+            "otpVerification": {
+                "verify_mobile": "Verify your mobile phone",
+                "enter_4_digit_code": "Please enter the 4-digit code that was sent to ",
+                "via_sms": "via SMS.",
+                "sms_recieve": "Did not receive SMS?",
+                "seconds_remaining": "   Seconds remaining:",
+                "alert_timeout": "Session timeout. Try again.",
+                "continue_button_text": "Continue",
+                "send_again": "Send Again!"
+            },
+            "signUp": {
+                "t&c_alert_msg": "Please accept Terms and Conditions",
+                "title": "Please enter additional information",
+                "lbl_userName": "User Name",
+                "lbl_companyName": "Company Legal Name",
+                "lbl_companyName_english": "Company Legal Name In English",
+                "lbl_businessName": "Business Operating Name",
+                "lbl_company_country": "Country where company is registered",
+                "lbl_company_identification_no": "Company Identification number",
+                "lbl_tax_id": "Tax ID",
+                "lbl_company_address": "Company Address",
+                "lbl_units_sold_last_year": "Number of units sold last year",
+                "lbl_vechicle_in_stock": "Number of vehicles in stock",
+                "lbl_firstName": "First Name",
+                "lbl_lastName": "Last name",
+                "lbl_position_at_company": "Position at the company",
+                "lbl_ofc_phone": "Office phone number",
+                "lbl_work_mail": "Work email",
+                "lbl_t&c_checkbox": "Terms and condition",
+                "error_empty_text": "* Please enter the text to proceed.",
+                "error_alphnumeric": "Only letters and numbers are allowed",
+                "error_invalid_email": "* Enter valid email address",
+                "underlineColorAndroid": "transparent",
+                "keyboardType": "numeric",
+                "autoCapitalize": "none",
+                "button_title": "Continue",
+                "placeholder_address1": " Address 1",
+                "placeholder_address2": " Address 2 (Optional)",
+                "placeholder_address3": " Address 3 (Optional)",
+                "placeholder_city": "City",
+                "placeholder_state": "Province/State",
+                "placeholder_zip_code": "Postal or Zip code"
+            },
+            "uploadDocument": {
+                "title": "Please upload following images",
+                "article_of_incorporation_lbl": "Articles of incorporation or Business formation",
+                "goverment_issued_id_lbl": "Government issued ID",
+                "selfie_with_goverment_id_lbl": "Selfie with Government ID",
+                "button_text": "Upload"
+            },
+            "signUpSuccess": {
+                "alert_message_title": "Thank You!",
+                "alert_message": "Your application number 2233445 is being verified, we will respond within 24 hours of our decision.",
+                "button": "OK"
+            },
+            "toBeReviewed": {
+                "header_Text": "Your account is",
+                "header_Text1": "Being reviewed ",
+                "message": "We will notify you when finished Thanks for your patience!",
+                "button": "Logout"
+            }
+        },
+        "widgets": {},
+        "common": {
+            "imageAlert": {
+                "emptyTitle": "",
+                "selectImageToUpload": "Please Select Image to Upload",
+                "uploadAllImages": "Please upload all images",
+                "cameraAccessAlertMsg": "Permission to access camera roll is required!",
+                "selectFromGalleryBtn": "Select from Gallery",
+                "clickFromCameraBtn": "Click from Camera",
+                "okBtn": "OK",
+                "cancelBtn": "Cancel",
+                "titleOpenLocationSettingAlert": "Turn on location service?",
+                "bodyOpenLocationSettingAlert": "we use your location to provide customized pick-up,drop-off and destination details.",
+                "btnOpenSettings": "Open Settings",
+                "imageUploadSuccess": "Image uploaded successfully.",
+                "someThingWentWrong": "Something went wrong.",
+                "uploadImageAlert": "Please upload images"
+            }
+        }
+    },
+    "mods-home": {
+        "scenes": {
+            "home": {
+                "search": "Search",
+                "dashboard": "Dashboard",
+                "toDo": "To Do",
+                "updates": "Updates",
+                "topOffers": "Top Offers",
+                "unfilledInstantRequest": "Unfilled Instant Request",
+                "trendingCars": "Trending Cars",
+                "recentlyViewed": "Recently Viewed",
+                "recommendation": "Recommendation",
+                "viewAll": "View All",
+                "trustHeader": "Keeping your purchase safe and Secure",
+                "trustBody": "With the Trusted Checkout and User Protection and Authenticity Guarantee services from Trade X, your purchase is completely protected - from ordering to delivery and beyond."
+            },
+            "textSearch": {
+                "searchPlaceholder": "Search by name/make/trim/listing ID",
+                "cancel": "Cancel"
+            },
+            "matchedCar": {
+                "title": "Matched Unit(s) Found",
+                "clear": "Clear",
+                "0-350KM": "0-350KM",
+                "moreThan350KM": "More than 350KM",
+                "noResultsFound": "No results found"
+            },
+            "viewAllCar": {
+                "title": "View All",
+                "noOtherCars": "No other cars"
+            }
+        },
+        "widgets": {
+            "todo": {},
+            "updates": {}
+        }
+    },
+    "mods-buy": {
+        "routes": {
+            "filterResult": "Filter Result",
+            "viewAll": "View All",
+            "makeOffer": "Make Offer"
+        },
+        "scenes": {
+            "buy": {
+                "noResultsFound": "No results found",
+                "view": "View",
+                "sort": "Sort",
+                "filters": "Filters",
+                "recommendation": "Recommendation",
+                "priceLTH": "Price Low to High",
+                "priceHTL": "Price High to Low",
+                "publishTimeRTO": "Publish Time Recent to Old",
+                "publishTimeOTR": "Publish Time Old to Recent",
+                "mileageLTH": "Mileage Low to High"
+            },
+            "buyFilter": {
+                "filters": "Filters",
+                "clear": "Clear",
+                "showSalePending": "Show sale pending & sold vehicles",
+                "countrySpecification": "Country Specification",
+                "selectMake": "Select Make",
+                "selectAll": "Select All",
+                "priceRange": "Price range",
+                "modelYear": "Model year",
+                "mileage": "Mileage (KM)",
+                "exteriorColor": "Exterior Color",
+                "selectAllColors": "Select All Colors",
+                "interiorColor": "Interior color",
+                "transmission": "Transmission",
+                "all": "All",
+                "automatic": "Automatic",
+                "manual": "Manual",
+                "vehicleStatus": "Vehicle Status",
+                "inStock": "In Stock",
+                "incoming": "Incoming",
+                "readyToShip": "Ready to ship in (days)",
+                "steeringPosition": "Steering Position",
+                "left": "Left",
+                "right": "Right",
+                "applyFilters": "Apply Filters",
+                "color": "Color",
+                "done": "Done",
+                "model": "Model",
+                "white": "White",
+                "black": "Black",
+                "silvery": "Silvery",
+                "blue": "Blue",
+                "brown": "Brown",
+                "red": "Red",
+                "yellow": "Yellow",
+                "green": "Green"
+            },
+            "buyFilterResult": {
+                "noResultFound": "No result found"
+            },
+            "makeAnOffer": {
+                "lbl_msrp": "MSRP",
+                "lbl_wholesale_price": "Wholesale Price",
+                "lbl_car_price": "Offer Price",
+                "lbl_pick_up_location": "Pick-up Location",
+                "lbl_shipping_method": "Shipping Method",
+                "lbl_pay_plan": "Pay Plan",
+                "lbl_payment_method": "Payment Method",
+                "lbl_shipping_fee": "Total Shipping Fee",
+                "lbl_borrowing_fee": "Total Borrowing Fee",
+                "lbl_transaction_fee": "Total Transaction Fee",
+                "lbl_special_discount": "Special Discount",
+                "lbl_deposite%": "Deposit %",
+                "lbl_deposite": "Deposit",
+                "lbl_total_payment": "Total Payment",
+                "btn_own_shipper": "Own shipper",
+                "btn_tradex": "TRADE X",
+                "btn_pay_now": "Pay Now",
+                "btn_pay_later": "Pay Later",
+                "btn_send_offer": "Send Offer",
+                "title_Port_City": "Port/City",
+                "lbl_car_quantity": "Number of Cars",
+                "lbl_buy_now_price": "Buy Now Price",
+                "lbl_additional_clause": "Additional clause",
+                "text_new_car": "NEW CAR",
+                "text_used_car": "USED CAR",
+                "text_incoming": "INCOMING",
+                "text_instock": "IN STOCK",
+                "text_unit": "UNIT",
+                "btn_buy_now": "Buy Now",
+                "text_pay":"Pay full amount closer to vehicle delivery. Upfront security deposit & borrowing fee applicable."
+            },
+            "matchedInstantRequest": {
+                "noOtherCars": "No other cars"
+            }
+        },
+        "widgets": {}
+    },
+    "mods-mycar": {
+        "routes": {
+            "marketTab": "Market",
+            "garageTab": "Garage",
+            "createCar": "Create Car",
+            "vehicleDisclosure": "Vehicle Disclosure",
+            "vehicleHistory": "Vehicle History",
+            "condition": "Condition",
+            "crLink": "CR Link",
+            "sellerStatement": "Seller Statement",
+            "sellerDisclosure": "Seller Disclosure",
+            "addPaintDamage": "Add Paint Damage",
+            "addInteriorDamage": "'Add Interior Damage",
+            "addExteriorDamage": "Add Exterior Damage",
+            "preview": "Preview"
+        },
+        "scenes": {
+            "marketCar": {},
+            "garageCar": {},
+            "carDetails": {},
+            "createCar": {
+                "title_createCar": "Create Car",
+                "title_editCar": "Edit Car",
+                "VINNumber": "VIN number:",
+                "Milage": "Mileage:",
+                "skipincoming": "Skip for Incoming Vehicle",
+                "Next": "Next",
+                "page_title": "Create Car",
+                "alert_greaterThanPresentDate": "Please select greater than present date",
+                "alert_moreThan6Months": "Please do not select date more than 6 months ahead",
+                "alert_vinInputNumber": "Please input VIN number",
+                "alert_validVinNumber": "Please Enter Valid VIN Number",
+                "alert_vinAlreadyExit": "VIN Number is Already Exist",
+                "alert_lessThan350": "The mileage of used car can not be less than 350km/218mile",
+                "alert_greaterThan350": "The mileage of new car can not be greater than 350km/218miles",
+                "alert_convertIntoStock": "Cannot convert in stock car to incomming"
+            },
+            "incomingCar": {
+                "title_createCar": "Create Car",
+                "title_editCar": "Edit Car",
+                "Incoming": "Incoming",
+                "estimation": "Estimated date of possession",
+                "Change": "Change",
+                "numberOfCars": "Number of Cars",
+                "btnContinue": "Continue",
+                "alert_greaterThan0": "Please enter greater than 0."
+            },
+            "quickMatch": {
+                "txtQuickMatch": "Quick Match",
+                "placeholderCarTrim": "Try type in car trim",
+                "btnCancel": "Cancel",
+                "txtNotFound": "Not Found",
+                "btnCreateManually": "Create Manually"
+            },
+            "carSpecification": {
+                "txtCountrySpecification": "Country Specification",
+                "lblChooseCountry": "Choose Country",
+                "txtModelYear": "Model Year",
+                "txtMake": "Make",
+                "txtModel": "Model",
+                "txtTrim": "Trim",
+                "txtBody": "Body",
+                "txtEngine": "Engine",
+                "txtEngineSize": "Engine Size",
+                "txtDoorNumber": "Door Number",
+                "txtFuelType": "Fuel Type",
+                "txtSteeringPosition": "Steering Position",
+                "btnLeftHandDrive": "Left Hand Drive",
+                "btnRightHandDrive": "Right Hand Drive",
+                "txtTransmission": "Transmission",
+                "btnAutomatic": "Automatic",
+                "btnManual": "Manual",
+                "txtNumberOfCars": "Number of cars",
+                "txtDestination": "Destination",
+                "txtMaxMileageAccepted": "Maximum Mileage Accepted",
+                "txtPaymentMethod": "Payment Method",
+                "txtSelectTrim": "Please select Trim",
+                "txtWarehouse": "Warehouse",
+                "lblSelectWarehouse": "Please select a warehouse",
+                "titleSelectWarehouse": "Select Warehouse",
+                "txtOptions": "options",
+                "txtEstimatedDays": "Estimated days to drop off to warehouse",
+                "lblDays": "0 Days",
+                "btnContinue": "Continue",
+                "lblSelectMileageType": "Select Mileage Type",
+                "lblChoosePaymentMethod": "Choose Payment Method",
+                "txtLocationService": "Turn on location service",
+                "txtBasedOnIPAddress": "The distance shown below are rough estimations based on your IP address",
+                "txtVinNumber": "VIN Number",
+                "alert_selectNumberOfCars": "Please select number of cars",
+                "alert_chooseDestination": "Please Choose destination",
+                "alert_enterMileage": "Please Enter Mileage",
+                "alert_selectPaymentMethod": "Please Select Payment Method"
+            },
+            "billOfSale": {},
+            "manualInputOptions": {
+                "btnConfirm": "Confirm",
+                "btnAdd": "Add",
+                "txtManuallyInputOption": "Manually Input Option",
+                "txtAdd": "Add",
+                "txtAsAnOption": "as an option",
+                "txtNotAnOption": "not an option"
+            },
+            "finalCarDetails": {
+                "btnConfirm": "Confirm",
+                "txtBuyPriceNow": "Buy Price Now",
+                "btnClose": "Close",
+                "btnDone": "Done",
+                "btnResetAll": "Reset All",
+                "txtSelectAll": "Select All",
+                "btnYes": "Yes",
+                "btnCancel": "Cancel",
+                "txtOnlyVisible": "Only Visible to yourself.",
+                "txtDelayedPayment": "Delayed payment method (such as L/C) means that the money will not reach your account immediately, but it will encourage more buyers to buy your car.",
+                "btnPublishTo": "Publish to",
+                "txtOptionalPhoto": "Optional Photo",
+                "btnRemove": "Remove"
+            },
+            "carPublishPreview": {
+                "btnCofirm": "Confirm",
+                "btnViewListing": "View Listing",
+                "btnEdit": "Edit",
+                "btnPublish": "Publish"
+            },
+            "carPublishDailog": {
+                "txtListed": "Listed!"
+            },
+            "carTax": {
+                "txtTotal": "Total",
+                "txtCarPrice": "Car Price",
+                "txtBuyNow": "Buy Now",
+                "txtMSRP": "MSRP",
+                "txtChooseCountry": "Choose Country",
+                "txtPortCity": "Port/City"
+            },
+            "vehicleHistory": {},
+            "vehicleDisclosure": {},
+            "vehicleCondition": {},
+            "sellerStatement": {},
+            "sellerRecommendation": {},
+            "sellerDisclosure": {},
+            "paintDamage": {},
+            "interiorDamage": {},
+            "exteriorDamage": {},
+            "crLink": {},
+            "crLinkSelllerStatement": {}
+        },
+        "widgets": {
+            "carCardVertical": {
+                "unit": "UNIT",
+                "units": "UNITS",
+                "incoming": "INCOMING",
+                "inStock": "IN STOCK",
+                "buyNow": "BUY NOW",
+                "msrp": "MSRP",
+                "negotiable": "NEGOTIABLE",
+                "sold": "SOLD"
+            },
+            "carDetailsMenu": {
+                "similarListing": "Create a Similar Listing",
+                "moveToGarage": "Move to Garage",
+                "publish": "Publish",
+                "editListing": "Edit this Listing",
+                "deleteListing": "Delete this Listing",
+                "cancel": "Cancel",
+                "alertMoveToGarageTitle": "Move to Garage?",
+                "alertMoveToGarageMessage": "Ongoing orders will not be affected, only the remaining unit(s) from this car listing will be moved",
+                "btnSave": "Save",
+                "btnMove": "Move",
+                "btnCancel": "Cancel",
+                "alertDeleteListingTitle": "Delete this Listing?",
+                "alertDeleteListingMessage": "Ongoing orders will not be affected, only the remaining unit(s) from this car listing will be deleted",
+                "btnDelete": "Delete",
+                "alertListed": "Listed!",
+                "btnViewListing": "View Listing"
+            },
+            "carInfo": {},
+            "carInfoDetails": {},
+            "carInfoHead": {},
+            "carInfoPicture": {},
+            "zeroCar": {
+                "txtZeroCar": "Zero cars in your shop.",
+                "txtStartMakingMoney": "Start making money by selling some vehicles!"
+            },
+            "vinMileDetails": {},
+            "vinCamScanner": {},
+            "recommendationCars": {
+                "similarCars": "Similar cars",
+                "otherCars": "'s other cars",
+                "viewAll": "View All"
+            },
+            "plusButton": {},
+            "imagePreview": {},
+            "dropDownPopup": {},
+            "colorPicker": {
+                "btnClose": "Close"
+            },
+            "colorDropdown": {},
+            "checkbox": {},
+            "sellerMemo": {
+                "sellerMemo": "Seller Memo",
+                "tradeXListing": "Trade X Listing ID",
+                "stockNumber": "Stock Number",
+                "cost": "Cost",
+                "memo": "Memo"
+            }
+        }
+    },
+    "mods-inbox": {
+        "common":{
+            "search":"Search"
+        },
+        "routes": {
+            "message": "Message",
+            "order": "Order"
+        },
+        "scenes": {
+            "inboxSearch":{
+                "cancel":"Cancel",
+                "searchBy":"Search By",
+                "searchCriteria":"Dealer/ Make/ Seller Memo/ Order ID/ Listing ID"
+            }
+        },        
+        "widgets": {
+            "filter":{
+                "filter":"Filter"
+            },
+            "clear":{
+                "clear":"Clear"
+            }
+        }
+    },
+    "mods-profile": {
+        "scenes": {
+            "myProfile": {
+                "viewAndEditProfile": "View & Edit Profile",
+                "carBought": "Car Bought",
+                "carSold": "Car Sold",
+                "buyerRating": "Buyer Rating",
+                "sellerRating": "Seller Rating",
+                "rating": "Rating",
+                "descRating": "View details of your rating",
+                "talkWithLive": "Talk with a  live Agent",
+                "descTalkWithLive": "Talk now with a dedicated TRADE X specialist",
+                "sendFeedback": "Send Feedback",
+                "descSendFeedback": "Let's us know how we can do better",
+                "tier": "Tier",
+                "descTier": "Coming Soon"
+            },
+            "viewProfile": {
+                "userName": "User Name",
+                "position": "Position",
+                "companyLegalName": "Company Legal Name",
+                "companyLegalNameInEnglish": "Company Legal Name In English",
+                "businessOperatingName": "Business Operating Name",
+                "countryWhereCompanyResistered": "Country where the company is registered",
+                "countryIdentificationNumber": "Country identification number",
+                "taxId": "Tax ID",
+                "companyAddress": "Company Address",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "officePhoneNumber": "Office phone number",
+                "workEmail": "Work Email"
+            },
+            "updateProfile": {
+                "title": "Profile",
+                "btnSave": "Save",
+                "workEmailNote": "After saving the email address, TRADE X will send you a verification email. Please verify within 15 days.",
+                "isRequired": "is required"
+            },
+            "setting": {
+                "title": "Setting",
+                "language": "Language",
+                "english": "English",
+                "bankAccountInfo": "Bank Account Info",
+                "preAuthorizedDebit": "Pre-Authorized Debit",
+                "appVersion": "App Version",
+                "logout": "Log Out"
+            },
+            "language": {
+                "title": "Language"
+            },
+            "bankAccountSet": {
+                "title": "Bank Account Set",
+                "primary": "Primary",
+                "setPrimary": "Set Primary",
+                "view": "View",
+                "accountName": "Account Name",
+                "bankAccountNumber": "Bank Account Number",
+                "swiftCode": "SWIFT Code",
+                "pad": "PAD"
+            },
+            "preAuthorizedDebit": {
+                "title": "Pre-Authorized Debit"
+            },
+            "bankAccount": {
+                "title": "Bank Account",
+                "accountName": "Account Name",
+                "accountAddress": "Account Address",
+                "bankInstitutionName": "Bank/Institution Name",
+                "bankInstitutionAddress": "Bank/Institution Address",
+                "bankAccountNumber": "Bank Account Number",
+                "institutionCode": "Institution Code",
+                "transitNumber": "Transit Number",
+                "swiftCode": "SWIFT Code",
+                "ibanCode": "IBAN Code (If applicable)",
+                "currency": "Currency",
+                "voidCheck": "Void Check",
+                "sellerStatement": "Seller Statement",
+                "disclosure": "Disclosure"
+            },
+            "rating": {
+                "title": "Rating"
+            },
+            "talk": {
+                "title": "Talk"
+            },
+            "tier": {
+                "title": "Tier"
+            },
+            "sendFeedback": {
+                "title": "Feedback",
+                "description": "We're always working to improve the TradeX experience, we'd love to hear what's working and how we can do better.",
+                "tradeXLikes": "How do you like TRADE X ?",
+                "tellUs": "Tell us",
+                "commentPlaceholder": "Share your experience with us",
+                "btnSendFeedback": "Send Feedback",
+                "sentSuccess": "Feedback sent successfully."
+            }
+        },
+        "widgets": {}
+    },
+    "splash": {
+        "skip": "SKIP",
+        "getting_started": "Get Started "
+    },
+    "login": {
+        "accessTradeX": "Access Trade X",
+        "enterPhoneNumber": "Enter your phone number to get started.",
+        "continue_button_text": "Continue"
+    },
+    "user_verification": {
+        "verify_mobile": "Verify your mobile phone",
+        "enter_4_digit_code": "Please enter the 4-digit code that was sent to ",
+        "via_sms": "via SMS.",
+        "sms_recieve": "Did not receive SMS?",
+        "seconds_remaining": "   Seconds remaining:",
+        "alert_timeout": "Session timeout. Try again.",
+        "continue_button_text": "Continue",
+        "send_again": "Send Again!"
+    },
+    "vehicle_history": {
+        "out_of_prov": "Out of Prov",
+        "us_vehicle": "US Vehicle",
+        "daily_rental": "Daily Rental",
+        "emergency_services_vehicle": "Emergency Services Vehicle",
+        "police_cruiser": "Police Cruiser",
+        "theft_recovery": "Theft Recovery",
+        "taxi_or_limo": "Taxi or Limo",
+        "fire_damaged": "Fire Damaged",
+        "immersed_in_water": "Immersed in Water",
+        "airbags_missing": "Airbags Missing",
+        "anti_lock_brakes_missing": "Anti-lock Brakes Missing",
+        "pollution_control_inoperable": "Pollution Control Inoperable",
+        "body_panels": "Body Panels Painted / Replaced",
+        "badges": "Badges",
+        "decals_changed": "Decals Changed",
+        "total_loss": "Total Loss",
+        "odometer": "Odometer Rolled Back",
+        "original_spec": "Original Spec Changed",
+        "camvap": "CAMVAP/ Lemon Law",
+        "warranty_cancelled": "Warranty Cancelled",
+        "damage_exceeding": "Damage Exceeding $3000 USD",
+        "none_of_above": "None of the above",
+        "continue_button_text": "Continue"
+    },
+    "vehicle_disclosure": {
+        "none": "None",
+        "salvage": "Salvage",
+        "accident_brand": "Accident Brand   ",
+        "irreparable": "Irreparable",
+        "rebuild": "Rebuild",
+        "odometer_condition": "Odometer Condition   ",
+        "normal": "Normal",
+        "replaced": "Replaced",
+        "rollback": "Rollback",
+        "broken_faulty": "Broken / Faulty",
+        "structural_parts": "Structural Parts   ",
+        "repaired": "Repaired",
+        "altered": "Altered",
+        "damaged": "Damaged",
+        "needs_repair": "Needs Repair  ",
+        "engine": "Engine",
+        "suspension_subframe": "Suspension / Subframe",
+        "transmission": "Transmission",
+        "fuel_system": "Fuel System",
+        "power_train": "Power Train",
+        "computer": "Computer",
+        "electrical_system": "Electrical System",
+        "air_condition": "Air Condition",
+        "sold_as_is": "SOLD AS-IS   ",
+        "not_applicable": "Not Applicable",
+        "as_is": "AS-IS",
+        "continue_button_text": "Continue",
+        "default_placeholder": "Please select",
+        "date_classfication": "Date of such classification",
+        "odometer_reading_label": "Previous Odometer Reading",
+        "date_reading_lablel": " Date of Reading",
+        "structural_part_label": "Structural Part Details",
+        "enter_details": "Enter Details",
+        "repair_details_label": "Need Repaired Details"
+    },
+    "dashboard": {
+        "bill_sale": {
+            "stickerHeader": "Bill of sale",
+            "upload": "Upload",
+            "primary_paint": "PRIMARY PAINT",
+            "screen": "Create Car",
+            "seat_trim": "SEAT TRIM",
+            "interior_color": "INTERIOR COLOR",
+            "seat_Type": "SEAT TYPE",
+            "base_msrp": "BASE MSRP",
+            "msrp_subtotal": "MSRP Subtotal",
+            "destination_charges": "Destination Charges(PDI)",
+            "show_total": "Show Total MSRP as",
+            "total_only": "MSRP Subtotal only",
+            "msrp_subtotal_destination": "MSRP Subtotal + Destination Charge (PDI)",
+            "buy_now_setting": "Buy Now Setting (Optional)",
+            "total_msrp": "Total MSRP",
+            "image_required": "Image are required field.",
+            "base_msrp_required": "Base MSRP are required field.",
+            "destination_required": "* Destination Charge field are required.",
+            "buy_now_price": "Buy Now Price",
+            "set_price": "Set a Buy Now Price",
+            "buyer_info": "If Buyer offer price >= buy now price, offer will be accepted automatically.",
+            "confirm": "Confirm",
+            "continue": "Continue",
+            "set_price_error": "Lower than Total MSRP"
+        },
+        "home": {
+            "text_search": "Search",
+            "text_dashboard": "Dashboard",
+            "card_header": "Keeping your purchase safe and Secure",
+            "card_body": "With the Trusted Checkout and User Protection and Authenticity Guarantee services from Trade X, your purchase is completely protected - from ordering to delivery and beyond.",
+            "text_linkTitle": "View All",
+            "text_unfilled_instant_request": "Unfilled Instant Request",
+            "text_recently_viewed": "Recently Viewed"
+        },
+        "my_profile": {
+            "lbl_userName": "User Name",
+            "lbl_companyName": "Company Legal Name",
+            "lbl_companyName_english": "Company Legal Name In English",
+            "lbl_businessName": "Business Operating Name",
+            "lbl_company_country": "Country where company is registered",
+            "lbl_company_identification_no": "Company Identification number",
+            "lbl_tax_id": "Tax ID",
+            "lbl_company_address": "Company Address",
+            "lbl_firstName": "First Name",
+            "lbl_lastName": "Last name",
+            "lbl_ofc_phone": "Office phone number",
+            "lbl_work_mail": "Work email",
+            "position": "Position at the company",
+            "resizeMode": "contain"
+        },
+        "myProfileMain": {
+            "view_edit_text": "View & Edit Profile",
+            "text_car_bought": "Car Bought",
+            "text_car_sold": "Car Sold",
+            "text_buyer_reating": "Buyer Rating",
+            "text_seller_rating": "Seller Rating",
+            "text_rating": "Rating",
+            "text_details_rating": "View details of your rating",
+            "text_live_agent_talk": "Talk with alive Agent",
+            "text_talk_specialist": "Talk now with a dedicated TRADE X specialist",
+            "text_send_feedback": "Send Feedback",
+            "text_how_to_better": "Let's us know how we can do better",
+            "text_tier": "Tier",
+            "text_coming_soon": "Coming Soon",
+            "resizeMode_contain": "contain",
+            "resizeMode_stretch": "stretch"
+        },
+        "my_profile_work_email": {
+            "lbl_work_email": "Work Email",
+            "message": "After saving the email address, TRADE X will send you a verification email. Please verify within 15 days.",
+            "save_btn": "Save"
+        },
+        "my_profile_user_name": {
+            "lbl_profile": "Profile",
+            "lbl_user_name": "User Name",
+            "save_btn": "Save"
+        },
+        "my_profile_position": {
+            "lbl_profile": "Profile",
+            "lbl_position": "Position",
+            "save_btn": "Save"
+        },
+        "search_details": {
+            "lbl_match_header": "Matched Unit(s) Found",
+            "clear": "Clear",
+            "text_info": "No Car Found",
+            "filter1": "0-350 KM",
+            "filter2": "More than 350 KM",
+            "filter3": "0-218 Miles",
+            "filter4": "More than 218 Miles"
+        }
+    },
+    "signup": {
+        "to_be_reviewed": {
+            "header_Text": "Your account is",
+            "header_Text1": "Being reviewed ",
+            "message": "We will notify you when finished Thanks for your patience!",
+            "button": "Logout"
+        },
+        "sign_up_success": {
+            "alert_message_title": "Thank You!",
+            "alert_message": "Your application number 2233445 is being verified, we will respond within 24 hours of our decision.",
+            "button": "OK"
+        },
+        "upload_document": {
+            "title": "Please upload following images",
+            "article_of_incorporation_lbl": "Dealers Licence",
+            "goverment_issued_id_lbl": "Government issued ID",
+            "selfie_with_goverment_id_lbl": "Selfie with Government ID",
+            "button_text": "Upload"
+        },
+        "signup_detials": {
+            "t&c_alert_msg": "Please accept Terms and Conditions",
+            "title": "Please enter additional information",
+            "lbl_userName": "User Name",
+            "lbl_companyName": "Company Legal Name",
+            "lbl_companyName_english": "Company Legal Name In English",
+            "lbl_businessName": "Business Operating Name",
+            "lbl_company_country": "Country where company is registered",
+            "lbl_company_identification_no": "Company Identification number",
+            "lbl_tax_id": "Tax ID",
+            "lbl_company_address": "Company Address",
+            "lbl_units_sold_last_year": "Number of units sold last year",
+            "lbl_vechicle_in_stock": "Number of vehicles in stock",
+            "lbl_firstName": "First Name",
+            "lbl_lastName": "Last name",
+            "lbl_position_at_company": "Position at the company",
+            "lbl_ofc_phone": "Office phone number",
+            "lbl_work_mail": "Work email",
+            "lbl_t&c_checkbox": "Terms and condition",
+            "error_empty_text": "* Please enter the text to proceed.",
+            "error_alphnumeric": "Only letters and numbers are allowed",
+            "error_invalid_email": "* Enter valid email address",
+            "underlineColorAndroid": "transparent",
+            "keyboardType": "numeric",
+            "autoCapitalize": "none",
+            "button_title": "Continue",
+            "placeholder_address1": " Address 1",
+            "placeholder_address2": " Address 2 (Optional)",
+            "placeholder_address3": " Address 3 (Optional)",
+            "placeholder_city": "City",
+            "placeholder_state": "Province/State",
+            "placeholder_zip_code": "Postal or Zip code"
+        }
+    },
+    "image_select_alert": {
+        "empty_title": "",
+        "select_image_to_upload": "Please Select Image to Upload",
+        "upload_all_images": "Please upload all images",
+        "camera_access_alert_msg": "Permission to access camera roll is required!",
+        "select_from_gallery_btn": "Select From Gallery",
+        "click_from_camera_btn": "Click From Camera",
+        "ok_btn": "Ok",
+        "cancel_btn": "Cancel",
+        "title_open_location_setting_alrt": "Turn on location service?",
+        "body_open_location_setting_alrt": "we use your location to provide customized pick-up,drop-off and destination details.",
+        "btn_open_settings": "Open Settings"
+    },
+    "button": {
+        "save_btn": "Save"
+    },
+    "create_car": {
+        "create_car_screen": {
+            "VINNumber": "VIN number:",
+            "Milage": "Mileage:",
+            "skipincoming": "Skip for Incoming Vehicle",
+            "Next": "Next",
+            "page_title": "Create Car"
+        },
+        "vin_scan": {
+            "alinVin": "Align VIN number in the frame for automatic scanning",
+            "Scancode": "Scan code",
+            "Photo_recognition": "Photo recognition",
+            "Cannot_open_Camera": "Cannot open Camera"
+        },
+        "multi_vi_scan": {
+            "estimatevin": "Estimated mileage when arriving warehouse",
+            "Miles": "Miles",
+            "Add": "Add"
+        },
+        "skip_incoming": {
+            "Incoming": "Incoming",
+            "estimation": "Estimated date of possession",
+            "Change": "Change"
+        }
+    },
+    "car_details": {
+        "specification_tab_title": "SPECIFICATION",
+        "details_tab_title": "DETAILS",
+        "options_tab_title": "OPTIONS"
+    },
+    "car_picture_component": {
+        "published_on": "Published on",
+        "swearMessage": "I duly swear that the subject Vehicle(s) is/are free of any and all liens and encumbrances as of the date of entering into any Agreement with TRADE X."
+    },
+    "final_details": {
+        "route_title": "Sample Car",
+        "vehicle_image": "Vehicle Images",
+        "title": "Final Details",
+        "image_mandatory": "Atleast 6 pictures are Mandatory ",
+        "add_image_button": "Add More Images",
+        "seller_info": "Sell faster by adding car images.",
+        "buy_now_header": "Buy Now Setting (Optional)",
+        "set_buy_now": "Set a Buy Now Price",
+        "publish_to": "Publish to",
+        "market": "Market",
+        "garage": "Garage",
+        "sell_to": "Sell to",
+        "country_placeholder": "Please select countries",
+        "payment_header": "Accept Delayed Payment Method",
+        "payment_option1": "Yes, I accept delayed payment",
+        "payment_option2": "No, I don't accept delayed payment",
+        "shipping_header": "Shipping",
+        "shipping_sub_header": "TradeX International Logistics",
+        "shipping_text": "International shipping services will be provided by TradeX. All you need to do is drop the vehicle in TradeX warehouse.",
+        "seller_memo_header": "Seller Memo",
+        "seller_memo_info_": "Only Visible to yourself.",
+        "cost": "Cost",
+        "stock_number": "Stock Number",
+        "other_memo": "Other Memo",
+        "optional": "(Optional)",
+        "image_error": "Upload minimum 6 images. Production Sticker, Odometer, Front Seats & Profile images are mandatory.",
+        "noticeInfo": "US prohibits import of vehicles with unrepaired recall.By Selecting YES you claim that the vehicle(s) in this listing have NO UNREPAIRED RECALL.",
+        "selectCountries": "Select Countries",
+        "buyNowInfo": "If Buyer offer price >= buy now price, offer will be accepted automatically.",
+        "noticeHeader": "Notice",
+        "add_button": "+ Add"
+    },
+    "car_details_spec": {
+        "specification_location": {
+            "display_value": "Country specification"
+        },
+        "model_year": "Model year",
+        "make_name": {
+            "display_value": "Make"
+        },
+        "model_name": {
+            "display_value": "Model"
+        },
+        "trim_name": {
+            "display_value": "Trim"
+        },
+        "body": {
+            "display_value": "Body"
+        },
+        "engine_type": {
+            "display_value": "Engine"
+        },
+        "displacement": "Engine size",
+        "fuel_type": {
+            "display_value": "Fuel type"
+        },
+        "door_number": "Door number",
+        "l_or_r": {
+            "display_value": "Steering position"
+        },
+        "transmission": {
+            "display_value": "Transmission"
+        },
+        "bill_of_sale": "Bill of sale/Window sticker/Worksheet    ",
+        "vin_not_decoded": "Sorry, the VIN number can not be decoded for now."
+    },
+    "car_details_disclosure": {
+        "Structural_Parts": "Structural Parts",
+        "Accident_Brand": "Accident Brand",
+        "Odometer_Condition": "Odometer Condition",
+        "SOLD_AS-IS": "SOLD AS-IS",
+        "Needs_Repair": "Needs Repair"
+    },
+    "buy": {
+        "no_results_found": "No results found",
+        "sort": "Sort",
+        "filters": "Filters",
+        "sortBtn": {
+            "recommendation": "Recommendation",
+            "priceLTH": "Price Low to High",
+            "priceHTL": "Price High to Low",
+            "publishTimeRTO": "Publish Time Recent to Old",
+            "publishTimeOTR": "Publish Time Old to Recent",
+            "mileageLTH": "Mileage Low to High"
+        },
+        "make_an_offer": {
+            "lbl_msrp": "MSRP",
+            "lbl_wholesale_price": "Wholesale Price",
+            "lbl_car_price": "Offer Price",
+            "lbl_pick_up_location": "Pick-up Location",
+            "lbl_shipping_method": "Shipping Method",
+            "lbl_pay_plan": "Pay Plan",
+            "lbl_payment_method": "Payment Method",
+            "lbl_shipping_fee": "Total Shipping Fee",
+            "lbl_borrowing_fee": "Total Borrowing Fee",
+            "lbl_transaction_fee": "Total Transaction Fee",
+            "lbl_special_discount": "Special Discount",
+            "lbl_deposite%": "Deposit %",
+            "lbl_deposite": "Deposit",
+            "lbl_total_payment": "Total Payment",
+            "btn_own_shipper": "Own shipper",
+            "btn_tradex": "TRADE X",
+            "btn_pay_now": "Pay Now",
+            "btn_pay_later": "Pay Later",
+            "btn_send_offer": "Send Offer",
+            "title_Port_City": "Port/City",
+            "lbl_car_quantity": "Number of Cars",
+            "lbl_buy_now_price": "Buy Now Price",
+            "lbl_additional_clause": "Additional clause",
+            "text_new_car": "NEW CAR",
+            "text_used_car": "USED CAR",
+            "text_incoming": "INCOMING",
+            "text_instock": "IN STOCK",
+            "text_unit": "UNIT",
+            "btn_buy_now": "Buy Now"
+        },
+        "filtersBtn": {
+            "filters": "Filters",
+            "clear": "Clear",
+            "showSalePending": "Show sale pending & sold vehicles",
+            "countrySpecification": "Country Specification",
+            "selectMake": "Select Make",
+            "selectAll": "Select All",
+            "priceRange": "Price range",
+            "modelYear": "Model year",
+            "mileage": "Mileage (KM)",
+            "exteriorColor": "Exterior Color",
+            "selectAllColors": "Select All Colors",
+            "interiorColor": "Interior color",
+            "transmission": "Transmission",
+            "all": "All",
+            "automatic": "Automatic",
+            "manual": "Manual",
+            "vehicleStatus": "Vehicle Status",
+            "inStock": "In Stock",
+            "incoming": "Incoming",
+            "readyToShip": "Ready to ship in (days)",
+            "steeringPosition": "Steering Position",
+            "left": "Left",
+            "right": "Right",
+            "applyFilters": "Apply Filters",
+            "color": "Color",
+            "done": "Done",
+            "model": "Model",
+            "white": "White",
+            "black": "Black",
+            "silvery": "Silvery",
+            "blue": "Blue",
+            "brown": "Brown",
+            "red": "Red",
+            "yellow": "Yellow",
+            "green": "Green"
+        }
+    },
+    "carDetailsMenu": {
+        "similarListing": "Create a Similar Listing",
+        "moveToGarage": "Move to Garage",
+        "publish": "Publish",
+        "editListing": "Edit this Listing",
+        "deleteListing": "Delete this Listing",
+        "cancel": "Cancel"
+    },
+    "myProfileSetting": {
+        "language": "Language",
+        "english": "English",
+        "Bank_Account_Info": "Bank Account Info",
+        "Pre_Authorized_Debit": "Pre-Authorized Debit",
+        "App_Version": "App Version",
+        "Log_Out": "Log Out"
+    },
+    "preAuthDebit": {
+        "step1": "Step 1 : PAD (Pre-Authorized Debit) signed",
+        "step2": "Step 2 : Choose Bank Account for PAD",
+        "Account_name": "Account name:",
+        "SWIFT_Code": "SWIFT Code: ",
+        "Bank_Account_Number": "Bank Account Number:",
+        "Log_Out": "Log Out"
+    },
+    "accinfo": {
+        "Account_Name": "Account Name",
+        "Account_Address": "Account_Address",
+        "Bank_Name": "Bank/Institution Name",
+        "Bank_Address": "Bank/Institution Address",
+        "Bank_Account_Number": "Bank Account Number:",
+        "Institution_Code": "Institution Code",
+        "Transit_Number": "Transit Number",
+        "SWIFT_Code": "SWIFT Code",
+        "IBAN_Code": "IBAN Code (If applicable)",
+        "Currency": "Currency",
+        "Void_Check": "Void Check",
+        "Bank_Account_Address": "Bank Account Address"
+    },
+    "sellerdis": {
+        "moredetails": " Please give us more details of your listing",
+        "paint_original": "Is the paint original?",
+        "interior_condition": "Is interior condition good?",
+        "exterior_condition": "Is exterior condition good?",
+        "Tire_Condition": "Tire Condition",
+        "Key": "Key",
+        "Odor": "Odor",
+        "Manuals": "Manuals",
+        "Seller_Statement": "Seller Statement",
+        "Continue": "Continue"
+    },
+    "inboxFilter": {
+        "filters": "Filters",
+        "clear": "Clear",
+        "showUnread": "Show unread message only",
+        "chatStatuses": "Chat Statuses",
+        "offerAccepted": "Offer Accepted Month",
+        "selectMake": "All Makes",
+        "selectDealer": "All Dealers",
+        "selectAll": "Select All",
+        "priceRange": "Price range (CAD)",
+        "modelYear": "Model year",
+        "mileage": "Mileage (KM)",
+        "exteriorColor": "Exterior Color",
+        "selectAllColors": "Select All Colors",
+        "interiorColor": "Interior color",
+        "carType": "Car Type",
+        "all": "All",
+        "either": "Either",
+        "new": "New",
+        "used": "Used",
+        "pendingAction": "Pending Action from",
+        "me": "Me",
+        "others": "Others",
+        "vehicleStatus": "Vehicle Status",
+        "inStock": "In Stock",
+        "incoming": "Incoming",
+        "readyToShip": "Ready to ship in (days)",
+        "orderType": "Order Type",
+        "market": "Market",
+        "instant": "Instant Request",
+        "applyFilters": "Apply Filters",
+        "color": "Color",
+        "done": "Done",
+        "model": "Model",
+        "white": "White",
+        "black": "Black",
+        "silvery": "Silvery",
+        "blue": "Blue",
+        "brown": "Brown",
+        "red": "Red",
+        "yellow": "Yellow",
+        "green": "Green",
+        "statuses": {
+            "all": "All Statuses",
+            "noPendingOffer": "No Pending Offer",
+            "signingAgreement": "Signing Purchase Agreement",
+            "payingDeposit": "Paying Deposit",
+            "conditionReports": "Confirming condition reports",
+            "remainingPayment": "Paying remaining payment",
+            "inShipment": "In shipment",
+            "completed": "Completed",
+            "cancel": "Cancel",
+            "depositConfirmed": "Deposit Confirmed",
+            "pendingOffer": "Pending Offer"
+        }
+    },
+    "user_chat": {
+        "avoid_cancel_message": "Please confirm deposite payment to avoid your order being cancelled",
+        "btn_authorized": "You Have Authorized"
+    }
+}

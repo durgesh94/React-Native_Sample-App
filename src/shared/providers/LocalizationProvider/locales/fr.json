@@ -1,0 +1,15 @@
+{
+    "login": {
+        "accessTradeX": "Accès Trade X",
+        "enterPhoneNumber": "Entrez votre numéro de téléphone pour commencer.",
+        "continue_button_text": "Continuer"
+    },
+    "user_verification": {
+        "verify_mobile": "Vérifiez votre mobile",
+        "enter_4_digit_code": "Veuillez saisir le code à 4 chiffres envoyé à () par SMS.",
+        "sms_recieve": "N'a pas reçu de SMS",
+        "seconds_remaining": "?        Secondes restantes:",
+        "alert_timeout": "Expiration de la session. Réessayer.",
+        "continue_button_text": "Continuer"
+    }
+}

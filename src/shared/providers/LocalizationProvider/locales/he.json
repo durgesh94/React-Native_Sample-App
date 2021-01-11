@@ -1,0 +1,15 @@
+{
+  "login": {
+      "accessTradeX": "גישה לסחר X",
+      "enterPhoneNumber": "הזן את מספר הטלפון שלך כדי להתחיל",
+      "continue_button_text": "לְהַמשִׁיך"
+  },
+  "user_verification": {
+      "verify_mobile": "אמת את הטלפון הנייד שלך",
+      "enter_4_digit_code": "אנא הזן את הקוד בן ארבע הספרות שנשלח אל () באמצעות SMS",
+      "sms_recieve": "לא קיבל SMS",
+      "seconds_remaining": "?        שניים שנותרו:",
+      "alert_timeout": "פסק זמן למפגש. נסה שוב.",
+      "continue_button_text": "לְהַמשִׁיך"
+  }
+}
