@@ -19,17 +19,13 @@ export const SignIn: React.FC = ({ navigation }: any) => {
         });
     }
 
-    const onSignUp = () => {
-        navigation.navigate("shared-signUp");
-    }
-
     return (
         <View style={{ flex: 1, marginHorizontal: 15 }}>
             <Text>Sign In</Text>
             <TouchableOpacity style={sharedStyles.button} onPress={() => onSubmit()}>
                 <Text style={sharedStyles.btnText}>Submit</Text>
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => onSignUp()}>
+            <TouchableOpacity onPress={() => navigation.navigate("shared-signUp")}>
                 <Text>New User?</Text>
             </TouchableOpacity>
         </View>

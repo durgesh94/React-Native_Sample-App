@@ -6,6 +6,7 @@ import { Settings } from "../../screens/Settings";
 import { useLocalization } from "../../../shared/providers/LocalizationProvider";
 import { useThemes } from "../../../shared/providers/ThemeProvider";
 import { useTab } from "../../../shared/providers/TabProvider";
+import { Contacts } from "../../screens/Contacts";
 
 const ProfileStack = createStackNavigator();
 
@@ -27,6 +28,9 @@ const ProfileStackScreen = () => {
         }}>
             <ProfileStack.Screen name="profile" component={Profile} options={{
                 headerShown: false
+            }} />
+             <ProfileStack.Screen name="profile-contacts" component={Contacts} options={{
+                headerShown: true, headerTitle: "Contacts"
             }} />
             <ProfileStack.Screen name="profile-settings" component={Settings} options={{
                 headerShown: true, headerTitle: "Settings"

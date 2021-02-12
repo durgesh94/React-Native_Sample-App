@@ -10,19 +10,24 @@ export const Profile: React.FC = ({ navigation }: any) => {
     const sharedStyles = SharedStyles(themes);
     const { signOut } = useAuth();
 
-    const onSetting = () => {
-        navigation.navigate("profile-settings");
-    }
-
     const onLogout = () => {
         signOut();
     }
 
     return (
         <View style={{ flex: 1, marginTop: 50, marginHorizontal: 15 }}>
+            <View style={{ marginLeft: 10 }}>
+                <Text>Username</Text>
+                <Text>Profile details</Text>
+            </View>
             <View style={{ marginTop: 10 }}>
-                <TouchableOpacity style={sharedStyles.button} onPress={() => onSetting()}>
+                <TouchableOpacity style={sharedStyles.button} onPress={() => navigation.navigate("profile-settings")}>
                     <Text style={sharedStyles.btnText}>Settings</Text>
+                </TouchableOpacity>
+            </View>
+            <View style={{ marginTop: 10 }}>
+                <TouchableOpacity style={sharedStyles.button} onPress={() => navigation.navigate("profile-contacts")}>
+                    <Text style={sharedStyles.btnText}>Contacts</Text>
                 </TouchableOpacity>
             </View>
             <View style={{ marginTop: 10 }}>

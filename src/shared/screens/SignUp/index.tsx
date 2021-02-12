@@ -18,6 +18,9 @@ export const SignUp: React.FC = ({ navigation }: any) => {
             <TouchableOpacity style={sharedStyles.button} onPress={() => onSubmit()}>
                 <Text style={sharedStyles.btnText}>Submit</Text>
             </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('shared-signIn')}>
+                <Text>Existing User?</Text>
+            </TouchableOpacity>
         </View>
     )
 }
