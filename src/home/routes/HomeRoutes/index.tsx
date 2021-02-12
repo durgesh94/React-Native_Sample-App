@@ -26,7 +26,7 @@ const HomeStackScreen = () => {
             }
         }}>
             <HomeStack.Screen name="home" component={Home} options={{
-                headerShown: false
+                headerShown: true, headerTitle: "Home"
             }} />
             <HomeStack.Screen name="home-product" component={Product} options={
                 ({ route }: any) => ({ title: route.params.name })

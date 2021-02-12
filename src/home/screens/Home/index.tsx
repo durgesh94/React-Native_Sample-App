@@ -1,8 +1,11 @@
-import React, { useEffect } from 'react';
-import { Text, View, TouchableOpacity } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { View } from 'react-native';
 import { useThemes } from '../../../shared/providers/ThemeProvider';
 import { SharedStyles } from '../../../shared/styles';
 import { useHome } from '../../providers/HomeProvider';
+import { Header } from '../../../shared/components/Header';
+import { Card } from '../../components/Card';
+import { Product } from "../../models/Product";
 
 export const Home: React.FC = ({ navigation }: any) => {
 
@@ -10,23 +13,25 @@ export const Home: React.FC = ({ navigation }: any) => {
     const sharedStyles = SharedStyles(themes);
     const { setLoading } = useHome();
 
-    const onProduct = () => {
-        navigation.navigate("home-product", { name: "Fruits" });
-    }
+    const [data, setData] = useState<Product[]>([]);
+
+    useEffect(() => {
+        // api call for p
+        const p = [
+            { name: "prod-1", price: 100 },
+            { name: "prod-2", price: 150 },
+            { name: "prod-3", price: 90 },
+        ];
+        setData(p);
+    }, []);
 
     return (
         <View style={{ flex: 1, marginTop: 50, marginHorizontal: 15 }}>
+            <Header />
             <View style={{ marginTop: 10 }}>
-                <Text>New Products:</Text>
-                <TouchableOpacity style={sharedStyles.button} onPress={() => onProduct()}>
-                    <Text style={sharedStyles.btnText}>Product</Text>
-                </TouchableOpacity>
-            </View>
-            <View style={{ marginTop: 10 }}>
-                <Text>Trending Products:</Text>
-                <TouchableOpacity style={sharedStyles.button} onPress={() => onProduct()}>
-                    <Text style={sharedStyles.btnText}>Product</Text>
-                </TouchableOpacity>
+                {data.map((element: Product) =>
+                    <Card navigation={navigation} data={element} />
+                )}
             </View>
         </View>
     )

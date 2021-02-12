@@ -8,16 +8,9 @@ export const Product: React.FC = ({ navigation }: any) => {
     const { themes } = useThemes();
     const sharedStyles = SharedStyles(themes);
 
-    const onProduct = () => {
-        navigation.navigate("home-productDetails");
-    }
-
     return (
         <View style={{ flex: 1, marginHorizontal: 15 }}>
-            <Text>Product List:</Text>
-            <TouchableOpacity style={sharedStyles.button} onPress={() => onProduct()}>
-                <Text style={sharedStyles.btnText}>Product</Text>
-            </TouchableOpacity>
+            <Text>Product Details</Text>
         </View>
     )
 }

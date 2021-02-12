@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-import { createDrawerNavigator } from '@react-navigation/drawer';
 import { useAuth } from "../../providers/AuthProvider";
 import { useThemes } from "../../providers/ThemeProvider";
 import { HomeModule } from "../../../home";
-import { SearchModule } from "../../../search";
-import { PostModule } from "../../../post";
-import { FavoriteModule } from "../../../favorite";
-import { ProfileModule } from "../../../profile";
+import { SearchModule } from "../../../cart";
+import { PostModule } from "../../../orders";
 import { AntDesign, MaterialIcons } from "@expo/vector-icons";
-import { Image } from "react-native";
 import { TabStyles } from "./appRoutes.style";
+import { Image } from "react-native";
+import { ProfileModule } from "../../../profile";
+import { FavoriteModule } from "../../../favorite";
 
 const bottomTab = createBottomTabNavigator();
 
@@ -41,12 +40,12 @@ const BottomTabScreen = () => {
                 tabBarIcon: ({ color, size }: any) => <AntDesign name="home" color={color} size={size} />
             }} />
             <bottomTab.Screen name="Search" component={SearchModule} options={{
-                tabBarLabel: 'Search',
-                tabBarIcon: ({ color, size }: any) => <AntDesign name="search1" color={color} size={size} />
+                tabBarLabel: 'Cart',
+                tabBarIcon: ({ color, size }: any) => <AntDesign name="shoppingcart" color={color} size={size} />
             }} />
             <bottomTab.Screen name="Post" component={PostModule} options={{
-                tabBarLabel: 'Post',
-                tabBarIcon: ({ color, size }: any) => <AntDesign name="camerao" color={color} size={size} />
+                tabBarLabel: 'My Orders',
+                tabBarIcon: ({ color, size }: any) => <AntDesign name="folder1" color={color} size={size} />
             }} />
             <bottomTab.Screen name="Favorite" component={FavoriteModule} options={{
                 tabBarLabel: 'Favorite',
@@ -58,30 +57,6 @@ const BottomTabScreen = () => {
             }} />
         </bottomTab.Navigator>
     );
-}
-
-const Drawer = createDrawerNavigator();
-
-const SideDrawerScreen = () => {
-
-    return (
-        <Drawer.Navigator
-            openByDefault
-            overlayColor="transparent"
-            drawerStyle={{
-                backgroundColor: 'blue',
-                width: 240,
-            }}
-            drawerContentOptions={{
-                activeTintColor: 'red',
-                inactiveTintColor: 'yellow',
-                itemStyle: { marginVertical: 5 },
-            }}
-        >
-            <Drawer.Screen name="Feed" component={HomeModule} />
-            <Drawer.Screen name="Article" component={ProfileModule} />
-        </Drawer.Navigator>
-    )
 }
 
 export const AppRoutes = () => (
