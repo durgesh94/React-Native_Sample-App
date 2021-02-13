@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { Image } from "react-native";
+import { AntDesign, MaterialIcons } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { useAuth } from "../../providers/AuthProvider";
 import { useThemes } from "../../providers/ThemeProvider";
 import { HomeModule } from "../../../home";
 import { SearchModule } from "../../../cart";
 import { PostModule } from "../../../orders";
-import { AntDesign, MaterialIcons } from "@expo/vector-icons";
 import { TabStyles } from "./appRoutes.style";
-import { Image } from "react-native";
 import { ProfileModule } from "../../../profile";
 import { FavoriteModule } from "../../../favorite";
+import { DrawerContent } from "../../components/DrawerContent";
 
 const bottomTab = createBottomTabNavigator();
 
@@ -59,8 +61,17 @@ const BottomTabScreen = () => {
     );
 }
 
+const Drawer = createDrawerNavigator();
+
+const DrawerScreen = () => (
+    <Drawer.Navigator drawerContent={props => <DrawerContent {...props} />}>
+        <Drawer.Screen name="Home" component={BottomTabScreen} />
+    </Drawer.Navigator>
+);
+
 export const AppRoutes = () => (
     <NavigationContainer>
-        <BottomTabScreen />
+        {/* <BottomTabScreen /> */}
+        <DrawerScreen />
     </NavigationContainer>
 );

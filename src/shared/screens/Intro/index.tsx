@@ -14,7 +14,7 @@ export const Intro: React.FC = ({ navigation }: any) => {
 
     return (
         <View style={{ flex: 1, marginTop: 50, marginHorizontal: 15 }}>
-            <Text style={{ textAlign: "center", padding: 20 }}>Slider</Text>
+            <Text style={{ textAlign: "center", padding: 10 }}>Slider</Text>
             {/* <Carousel data={dummyData} /> */}
             <Carousel images={images} />
             <View style={{ flexDirection: "row" }}>
