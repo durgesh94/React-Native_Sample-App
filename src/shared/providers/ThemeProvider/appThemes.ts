@@ -20,7 +20,12 @@ export const darkTheme: any = {
     blackHeaderBackgroundColor: "#000000",
     // Button
     orangeButtonBackgroundColor: "#800000",
-    whiteButtonTextColor: "#FFFFFF"
+    whiteButtonTextColor: "#FFFFFF",
+    // Tab
+    orangeActiveTabTextColor: "#800000",
+    greyInActiveTabTextColor: "#9E9E9E",
+    blueGreyBorderColor: "#CFD8DC",
+    whiteTabBackgroundColor: "#FFFFFF",
 }
 
 export const lightTheme: any = {
@@ -30,5 +35,10 @@ export const lightTheme: any = {
     blackHeaderBackgroundColor: "#000000",
     // Button
     orangeButtonBackgroundColor: "#FFD700",
-    whiteButtonTextColor: "#FFFFFF"
+    whiteButtonTextColor: "#FFFFFF",
+    // Tab
+    orangeActiveTabTextColor: "#FFD700",
+    greyInActiveTabTextColor: "#9E9E9E",
+    blueGreyBorderColor: "#CFD8DC",
+    whiteTabBackgroundColor: "#FFFFFF",
 }

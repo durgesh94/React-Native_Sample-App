@@ -1,17 +1,19 @@
 import React, { useEffect } from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useThemes } from '../../../shared/providers/ThemeProvider';
 import { SharedStyles } from '../../../shared/styles';
 import { useLocalization } from '../../../shared/providers/LocalizationProvider';
+import { THEME } from "../../../shared/contants/theme.enum";
 
 export const Settings: React.FC = ({ navigation }: any) => {
 
-    const { themes, updateTheme } = useThemes();
+    const { themes, updateTheme, currentTheme } = useThemes();
     const sharedStyles = SharedStyles(themes);
     const { strings, updateLangauge } = useLocalization();
 
     const onChangeTheme = async () => {
-        await updateTheme('dark');
+        currentTheme == THEME.DARK ? await updateTheme(THEME.LIGHT) : await updateTheme(THEME.DARK)
     }
 
     const onChangeLangauge = async () => {

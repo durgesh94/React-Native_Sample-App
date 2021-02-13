@@ -29,8 +29,8 @@ export const Home: React.FC = ({ navigation }: any) => {
         <View style={{ flex: 1, marginTop: 50, marginHorizontal: 15 }}>
             <Header />
             <View style={{ marginTop: 10 }}>
-                {data.map((element: Product) =>
-                    <Card navigation={navigation} data={element} />
+                {data.map((element: Product, idx: number) =>
+                    <Card navigation={navigation} data={element} key={idx}/>
                 )}
             </View>
         </View>
