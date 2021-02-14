@@ -1,9 +1,12 @@
 import React from 'react';
 import { Text, View, TouchableOpacity, Image, Linking } from 'react-native';
 import { useThemes } from '../../providers/ThemeProvider';
-import { Entypo, MaterialIcons } from "@expo/vector-icons";
+import { Entypo, MaterialIcons, Ionicons } from "@expo/vector-icons";
 import { drawerContentStyles } from "./drawerContent.style";
 import { useAuth } from '../../providers/AuthProvider';
+import { ProfileModule } from "../../../profile";
+import { FavoriteModule } from "../../../favorite";
+
 export const DrawerContent = ({ navigation, ...props }: any) => {
 
     const { themes } = useThemes();
@@ -29,9 +32,13 @@ export const DrawerContent = ({ navigation, ...props }: any) => {
                     <Entypo name="home" size={24} color={themes.orangeActiveTabTextColor} />
                     <Text style={styles.btnText}>Home</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('profile')}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Profile')}>
                     <Entypo name="user" size={24} color={themes.orangeActiveTabTextColor} />
                     <Text style={styles.btnText}>Profile</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Notification')}>
+                    <Ionicons name="notifications-sharp" size={24} color={themes.orangeActiveTabTextColor} />
+                    <Text style={styles.btnText}>Notification</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.button} onPress={() => Linking.openURL('https://github.com/durgesh94')}>
                     <Entypo name="link" size={24} color={themes.orangeActiveTabTextColor} />

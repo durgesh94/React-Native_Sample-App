@@ -13,6 +13,7 @@ import { TabStyles } from "./appRoutes.style";
 import { ProfileModule } from "../../../profile";
 import { FavoriteModule } from "../../../favorite";
 import { DrawerContent } from "../../components/DrawerContent";
+import { NotificationModule } from "../../../notification";
 
 const bottomTab = createBottomTabNavigator();
 
@@ -66,6 +67,7 @@ const Drawer = createDrawerNavigator();
 const DrawerScreen = () => (
     <Drawer.Navigator drawerContent={props => <DrawerContent {...props} />}>
         <Drawer.Screen name="Home" component={BottomTabScreen} />
+        <Drawer.Screen name="Notification" component={NotificationModule} />
     </Drawer.Navigator>
 );
 
